@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ws101_dedios_navbar/static/css/main.b06ad6e3.css",
+    "main.js": "/ws101_dedios_navbar/static/js/main.b1ae5583.js",
+    "static/js/453.1b179f94.chunk.js": "/ws101_dedios_navbar/static/js/453.1b179f94.chunk.js",
+    "static/media/tech.jpg": "/ws101_dedios_navbar/static/media/tech.02566df95d3bcfe10e3d.jpg",
+    "index.html": "/ws101_dedios_navbar/index.html",
+    "main.b06ad6e3.css.map": "/ws101_dedios_navbar/static/css/main.b06ad6e3.css.map",
+    "main.b1ae5583.js.map": "/ws101_dedios_navbar/static/js/main.b1ae5583.js.map",
+    "453.1b179f94.chunk.js.map": "/ws101_dedios_navbar/static/js/453.1b179f94.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b06ad6e3.css",
+    "static/js/main.b1ae5583.js"
+  ]
+}
