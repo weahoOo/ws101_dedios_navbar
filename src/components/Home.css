@@ -1,0 +1,33 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(145deg, #0d0d0d, #1a1a1a);
+    color: #00ffcc;
+    background-image: url('tech.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    }
+
+    .home-title {
+        color: #000000; /* Black color for the heading */
+        font-size: 3rem; /* Size of the font */
+        text-shadow: 
+            0px 0px 15px rgba(0, 0, 255, 0.7),   /* Light blue glow */
+            0px 0px 30px rgba(0, 0, 255, 0.5),   /* Medium blue glow */
+            0px 0px 45px rgba(0, 0, 255, 0.3);   /* Dark blue glow */
+        margin-bottom: 20px; /* Space below the heading */
+        font-weight: bold; /* Bold font weight */
+    }
+    
+.home-description {
+    color: #000000; /* Black color for the subheading */
+    font-size: 1.5rem;
+    text-shadow: 0px 0px 10px rgba(0, 255, 255, 0.7), 0px 0px 20px rgba(0, 255, 255, 0.5); /* Subtle neon glow with cyan */
+    margin-top: 0;
+}

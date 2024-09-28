@@ -1,0 +1,83 @@
+/* Center the contact form and add padding */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Full screen height with padding */
+    background-color: #101010; /* Background color */
+    color: #ffffff; /* Text color */
+    padding: 20px;
+}
+
+/* Contact title styling */
+.contact-title {
+    font-size: 2.5rem;
+    color: #00ffff; /* Neon color for title */
+    margin-bottom: 20px;
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Style the form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181818; /* Darker background for form */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.2); /* Neon glow */
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Form labels and inputs */
+.contact-form label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    width: 100%;
+    color: #00ffff;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    color: #000;
+    background: #e0e0e0;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 10px #00ffff; /* Neon glow on focus */
+}
+
+/* Submit button */
+.contact-submit {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #101010;
+    background-color: #00ffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact-submit:hover {
+    background-color: #008080;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
